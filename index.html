@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sia Fleurs - Авторские букеты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Sia Fleurs</div>
+        <nav>
+            <a href="#about">О нас</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contact" class="btn-nav">Заказать</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Sia Fleurs. Создаем настроение, а не композиции.</h1>
+            <p>Флористика, которая говорит на языке ваших эмоций.</p>
+            <a href="#contact" class="btn-main">Заказать букет</a>
+        </section>
+
+        <section id="about">
+            <h2>Почему мы?</h2>
+            <p>Каждый букет в Sia Fleurs — это ручная работа, уникальный дизайн и внимание к каждой эмоции.</p>
+            <ul class="features">
+                <li>Свежесть сортов</li>
+                <li>Индивидуальный подбор под ваш бюджет</li>
+                <li>Доставка в специальных боксах</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Наши работы</h2>
+            <div class="gallery-grid">
+                <img src="https://i.pinimg.com/736x/00/dd/ab/00ddab43b9d4029efaf93f9ed616434b.jpg">
+                <img src="https://i.pinimg.com/736x/1e/d0/3b/1ed03ba2d1f643230ceaf3bce00633a7.jpg">
+                <img src="https://i.pinimg.com/736x/12/dd/70/12dd70ed72ab50f187baabd441649aea.jpg">
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h2>Отзывы клиентов</h2>
+            <blockquote>
+                <p>"Невероятные букеты! Заказывала маме на день рождения, она была в восторге. Такого дизайна я больше нигде не видела."</p>
+                <cite>— Анна</cite>
+            </blockquote>
+            <blockquote>
+                <p>"Быстрая доставка, свежие цветы и очень приятный в общении флорист. Обязательно вернусь еще!"</p>
+                <cite>— Дмитрий</cite>
+            </blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Оставить заявку</h2>
+            <form action="#" method="POST">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" placeholder="Иван" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+7 (818) 818-18-18" required>
+
+                <label for="message">Комментарий (какой букет хотите?):</label>
+                <textarea id="message" name="message" rows="4" placeholder="Хочу нежный букет с пионами..."></textarea>
+
+                <button type="submit" class="btn-main">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Sia Fleurs. Все права защищены.</p>
+        <p>Мы в соцсетях: <a href="#">Telegram</a> | <a href="#">VK</a></p>
+    </footer>
+
+</body>
+</html>
